@@ -27,8 +27,8 @@ export default function Sidebar({ isAvailable, setIsAvailable, activeTab }: Side
 
 	return (
 		<aside className="w-90 bg-black min-h-full flex flex-col overflow-y-auto scrollbar-thin scrollbar-track-transparent scrollbar-thumb-gray-600">
-			<nav className="mt-8 px-4 flex-1">
-				<ul className="space-y-2">
+			<nav className="mt-4 px-4 flex-1">
+				<ul className="space-y-1">
 					<li>
 						<DashboardNav />
 					</li>
@@ -54,7 +54,7 @@ export default function Sidebar({ isAvailable, setIsAvailable, activeTab }: Side
 			</nav>
 
 			{/* Bottom section - Fixed at bottom */}
-			<div className="px-4 pb-6 border-t border-gray-700">
+			<div className="px-4 pb-4 border-t border-gray-700">
 				<AvailabilityToggle isAvailable={isAvailable} setIsAvailable={setIsAvailable} />
 				<SettingsNav />
 				<LogoutNav />

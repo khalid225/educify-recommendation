@@ -9,7 +9,7 @@ interface HeaderProps {
 
 export default function Header({ isStudentMode, setIsStudentMode }: HeaderProps) {
 	return (
-		<header className="bg-white shadow-sm border-b border-gray-200 h-16">
+		<header className="bg-white shadow-sm border-b border-gray-200 h-12">
 			<div className="mx-auto px-4 sm:px-6 lg:px-8 h-full">
 				<div className="flex justify-between items-center h-full">
 					{/* Left side - Logo and Search */}

@@ -5,7 +5,7 @@ interface AvailabilityToggleProps {
 
 export default function AvailabilityToggle({ isAvailable, setIsAvailable }: AvailabilityToggleProps) {
 	return (
-		<div className="flex items-center justify-between px-3 py-2">
+		<div className="flex items-center justify-between px-3 py-1.5">
 			<span className="text-sm font-semibold text-gray-300">Available</span>
 			<button
 				onClick={() => setIsAvailable(!isAvailable)}
