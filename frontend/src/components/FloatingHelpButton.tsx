@@ -1,8 +1,8 @@
 export default function FloatingHelpButton() {
 	return (
-		<div className="fixed bottom-18 right-4">
-			<button className="w-12 h-12 bg-gray-600 hover:bg-gray-700 text-white rounded-full shadow-lg flex items-center justify-center transition-colors">
-				<img src="/live-chat.svg" alt="Live Chat Help" className="w-16 h-12" />
+		<div className="fixed bottom-18 right-2 sm:right-4">
+			<button className="w-10 h-10 sm:w-12 sm:h-12 bg-gray-600 hover:bg-gray-700 text-white rounded-full shadow-lg flex items-center justify-center transition-colors">
+				<img src="/live-chat.svg" alt="Live Chat Help" className="w-12 h-9 sm:w-16 sm:h-12" />
 			</button>
 		</div>
 	);
